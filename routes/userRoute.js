@@ -8,7 +8,8 @@ user_route.use(session({
       secret:config.sessionSecret, 
       resave: false, 
       saveUninitialized: false
-}));
+}));  
+
 
 const auth = require("../middleware/auth");
 const isAdmin = require('../middleware/isAdmin')
