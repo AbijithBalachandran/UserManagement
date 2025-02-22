@@ -1,0 +1,24 @@
+
+
+.user{
+      margin: 50px 50px;
+      position: relative;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.dash{
+      border: none;
+      height: 60px;
+      width: 110px;
+      font-size: larger;
+      border-radius: 5px;
+      margin-left: 30px;
+      text-decoration: none;
+      color: black;
+
+}
+.head{
+      margin-top: 200px;
+      text-shadow: black;
+}

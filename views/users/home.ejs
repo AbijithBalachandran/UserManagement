@@ -1,0 +1,40 @@
+<% include('../layouts/header.ejs') %>
+
+
+<link rel="stylesheet" href="/home.css">
+
+<a href="/logout">LogOut</a>
+
+
+<main class="table">
+
+<section class="table_header">
+  <h2>Welcome, <%=user.name %></h3>   
+</section>
+
+<session class="table_body">
+      <table>
+            <thead>
+                  <tr>
+                        <th>Student Name</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                  </tr>
+            </thead>
+            <td><%= user.name %></td>
+            <td><%= user.email %></td>
+            <td><%= user.mobile %></td>
+            <td><a href="/edit?id=<%= user._id %>">EDIT</a></td>
+            <tbody>
+                  
+            </tbody>
+            
+           </table>
+</session>
+
+</main>
+
+
+
+
+<% include('../layouts/footer.ejs') %>
